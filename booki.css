@@ -1,0 +1,230 @@
+/*couleur*/
+/* bleu(#0065FC) */
+/* bleu claire(#DEEBFF) */
+/* gris(#F2F2F2) */
+/* front */
+
+/*https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css*/
+@charset "UTF-8";
+/* font-family: 'Raleway', sans-serif; */
+@font-face {
+   font-family: 'Raleway';
+   src: 'font/raleway.ttf';
+}
+body, html {
+   padding: 10px;
+   margin: 10px;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+   text-decoration: none;
+}
+
+.container-fluid {
+   padding:10%;
+}
+
+.separator {
+   height: 0;
+   width: 0;
+   border: none;
+   box-shadow:none;
+   background-color: #DEEBFF;
+}
+
+/* header */
+.header {
+   background-color:none;
+   height:auto;
+   line-height: auto;
+}
+
+.logo {
+   color:#0065FC;
+   text-transform: none;
+   font-weight: bold;
+   letter-spacing: none;
+   float:left;
+}
+
+.menu {
+   float:right;
+}
+
+.menu a {
+   color:#0065FC;
+   margin-right: 20px;
+}
+
+/* bannière */
+.banner {
+   width: 70%;
+   max-width: 70%;
+}
+
+.ban {
+   width: 70%;
+   max-width: 70%;
+   position: flex-around;
+   margin: 20px;
+}
+
+.ban img {
+   width: 70%;
+   max-width: 70%;
+   margin-top: 20px;
+}
+
+.inner-banner {
+   position: flex-wrap;
+   top: auto;
+   left: 70px;
+   width: auto;
+   text-align: none;
+   justify-items: flex-start;
+   padding-block-start: 70px;
+}
+.inner-banner h6 {
+   color:darkgrey;
+}
+
+.inner-banner .btn-custom {
+   background-color: #0065FC;
+   color:#ffff;
+}
+
+.inner-banner .btn-custom :hover {
+   color: blue;
+}
+
+/* about */
+
+.about {
+   text-align:left;
+}
+
+.about article {
+   margin-top: 50px;
+}
+.about2 {
+   text-align: right;
+}
+
+.about article h1 {
+   text-align: right;
+}
+.container-fluid .about {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-items: space-around;
+   margin:30%
+}
+
+.wrapper {
+   display:grid;
+   grid-template-columns: repeat(3,2fr);
+   gap: 10px;
+   grid-auto-rows: minmax( 10px, auto)
+}
+.wrapper.items1-about1 {
+   grid-column: 1px / 3px;
+   grid-row: 1 px;
+   background-color: #f2f2f2;
+   
+}
+.wrapper.items2-about2 {
+   grid-column: 2px / 3px;
+   grid-row: 1px / 2px; 
+   background-color: #f2f2f2;
+   
+}
+
+/* galerie */
+.container-fluid .block2{
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin:30%
+}
+
+.block2 {
+   background-color:#F2F2F2F2;
+}
+
+.block2 .h2 {
+   text-align: right;
+}
+
+.block2 .h6{
+   text-align: center;  
+}
+
+. .container-fluid .bloc3 {
+   height: 992px;
+   width: 992px;
+   display:flex;
+   justify-content:space-around;
+   background-color: white;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   }
+
+/* contact*/
+
+.container-fluid {
+   display: flex;
+   flex-direction: row;
+   align-items: space-around;
+   background-color: #f2f2f2;
+}
+
+
+.block2 {
+   background-color: #f2f2f2;
+
+}
+
+.block2 .h1 .h6 {
+   text-align: center;
+}
+
+.bloc3 {
+   display:grid;
+   justify-items: left;
+   text-align: center;
+
+}
+
+.bloc4 {
+   display: grid;
+   justify-items: center;
+   text-align: center;
+}
+
+.container-fluid-contact {
+   display: flex;
+   flex-direction:row;
+   justify-content: space-around;
+   justify-items: right;
+   text-align: center;
+   background-color: #F2F2F2F2;
+}
+.img{
+   width: 992px;
+   height: 992px;
+   padding: 30%
+}
+.container-flud-lespluspopulaires{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
